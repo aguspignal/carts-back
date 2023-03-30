@@ -1,0 +1,31 @@
+POST http://localhost:3001/api/carts
+Content-Type: application/json
+
+{
+   "products": [{}],
+   "userId": 10
+}
+
+###
+POST http://localhost:3001/api/carts
+Content-Type: application/json
+
+{
+   "products": [{},{}]
+}
+
+###
+POST http://localhost:3001/api/carts
+Content-Type: application/json
+
+{
+   "products": []
+}
+
+###
+POST http://localhost:3001/api/carts
+Content-Type: application/json
+
+{
+   "userId": 10
+}
